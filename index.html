@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mind Vision — Сона Назарова | Нумеролог и Коуч</title>
+    <meta name="description" content="Сона Назарова — нумеролог, коуч, аналитик цифр. Пространство цифровой аналитики и личных трансформаций.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Фоновые числовые элементы -->
+    <div class="numbers-background">
+        <span class="floating-number golden" style="top: 10%; left: 15%;">1</span>
+        <span class="floating-number golden" style="top: 25%; right: 20%;">2</span>
+        <span class="floating-number golden" style="top: 45%; left: 10%;">3</span>
+        <span class="floating-number golden" style="top: 60%; right: 15%;">4</span>
+        <span class="floating-number golden" style="top: 75%; left: 20%;">5</span>
+        <span class="floating-number golden" style="top: 85%; right: 25%;">6</span>
+        <span class="floating-number golden" style="top: 35%; left: 85%;">7</span>
+        <span class="floating-number golden" style="top: 50%; right: 80%;">8</span>
+        <span class="floating-number golden" style="top: 20%; left: 50%;">9</span>
+        <span class="floating-number golden" style="top: 5%; left: 70%;">1</span>
+        <span class="floating-number golden" style="top: 65%; left: 5%;">2</span>
+        <span class="floating-number golden" style="top: 90%; right: 10%;">3</span>
+        <span class="floating-number golden" style="top: 15%; right: 5%;">4</span>
+        <span class="floating-number golden" style="top: 40%; left: 50%;">5</span>
+        <span class="floating-number golden" style="top: 55%; right: 45%;">6</span>
+        <span class="floating-number golden" style="top: 70%; left: 80%;">7</span>
+        <span class="floating-number golden" style="top: 30%; right: 60%;">8</span>
+        <span class="floating-number golden" style="top: 80%; left: 40%;">9</span>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="geometric-circle circle-1"></div>
+        <div class="geometric-circle circle-2"></div>
+        <div class="geometric-circle circle-3"></div>
+        
+        <div class="hero-content">
+            <div class="logo-symbol">
+                <svg viewBox="0 0 200 200" class="sacred-geometry">
+                    <circle cx="100" cy="100" r="80" fill="none" stroke="currentColor" stroke-width="1"/>
+                    <circle cx="100" cy="100" r="60" fill="none" stroke="currentColor" stroke-width="1"/>
+                    <circle cx="100" cy="100" r="40" fill="none" stroke="currentColor" stroke-width="1"/>
+                    <line x1="100" y1="20" x2="100" y2="180" stroke="currentColor" stroke-width="1"/>
+                    <line x1="20" y1="100" x2="180" y2="100" stroke="currentColor" stroke-width="1"/>
+                    <line x1="35" y1="35" x2="165" y2="165" stroke="currentColor" stroke-width="1"/>
+                    <line x1="165" y1="35" x2="35" y2="165" stroke="currentColor" stroke-width="1"/>
+                </svg>
+            </div>
+            
+            <h1 class="hero-title fade-in">Mind Vision</h1>
+            <p class="hero-subtitle fade-in-delay-1">Пространство цифровой аналитики и личных трансформаций</p>
+            
+            <!-- Навигационные кнопки -->
+            <nav class="hero-nav fade-in-delay-2">
+                <button class="nav-btn" onclick="scrollToSection('about')">
+                    <i class="fas fa-user"></i>
+                    <span>Обо мне</span>
+                </button>
+                <button class="nav-btn" onclick="scrollToSection('programs')">
+                    <i class="fas fa-star"></i>
+                    <span>Программы</span>
+                </button>
+                <button class="nav-btn" onclick="scrollToSection('process')">
+                    <i class="fas fa-tasks"></i>
+                    <span>Формат</span>
+                </button>
+                <button class="nav-btn" onclick="scrollToSection('calculator')">
+                    <i class="fas fa-calculator"></i>
+                    <span>Число пути</span>
+                </button>
+                <button class="nav-btn" onclick="scrollToSection('pythagoras')">
+                    <i class="fas fa-th"></i>
+                    <span>Пифагор</span>
+                </button>
+                <button class="nav-btn" onclick="scrollToSection('services')">
+                    <i class="fas fa-briefcase"></i>
+                    <span>Услуги</span>
+                </button>
+                <button class="nav-btn" onclick="scrollToSection('contact')">
+                    <i class="fas fa-envelope"></i>
+                    <span>Контакты</span>
+                </button>
+            </nav>
+            
+            <div class="divider fade-in-delay-3"></div>
+            
+            <h2 class="hero-name fade-in-delay-3">Сона Назарова</h2>
+            <p class="hero-role fade-in-delay-4">
+                <span>Нумеролог</span>
+                <span class="separator">•</span>
+                <span>Коуч</span>
+                <span class="separator">•</span>
+                <span>Аналитик цифр</span>
+            </p>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-decoration">
+                <div class="deco-line"></div>
+                <div class="deco-circle"></div>
+                <div class="deco-line"></div>
+            </div>
+            
+            <h2 class="section-title scroll-reveal">Обо мне</h2>
+            
+            <div class="about-content">
+                <!-- Photo -->
+                <div class="about-photo scroll-reveal">
+                    <img src="https://www.genspark.ai/api/files/s/2BFdmBNe" alt="Сона Назарова" class="profile-image">
+                </div>
+                
+                <div class="about-quote scroll-reveal">
+                    <span class="quote-mark">"</span>
+                    <p>Я Сона, коуч и аналитик цифр. Через числа помогаю понять себя, раскрыть потенциал и создать жизнь, которую вы хотите.</p>
+                    <span class="quote-mark quote-mark-end">"</span>
+                </div>
+                
+                <div class="about-text scroll-reveal">
+                    <div class="text-block">
+                        <p>Я родилась в городе Ленкорань. Выросла в Волгограде, с 2016 года живу в Баку и работаю с людьми. Мама троих подростков.</p>
+                    </div>
+                    
+                    <div class="text-block">
+                        <p>Сегодня я специализируюсь на глубоком анализе личности, создании индивидуальных стратегий развития и работе с жизненными сценариями через нумерологию и коучинговый подход.</p>
+                    </div>
+                    
+                    <div class="text-block">
+                        <p>К нумерологии я пришла в момент поиска ответов на собственные вопросы — и впервые увидела, как цифры точно отражают характер, путь и внутренние программы. Этот инструмент помог мне самой, и с тех пор я помогаю людям так же — видеть себя яснее, понимать свои ресурсы и выбирать свой путь.</p>
+                    </div>
+                    
+                    <div class="text-block">
+                        <p>Сегодня я создаю персональные стратегии, разбираю совместимость, предназначение и точки силы, помогая человеку двигаться дальше уверенно, осознанно и на своём месте.</p>
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section id="programs" class="programs-section">
+        <div class="container">
+            <div class="section-decoration">
+                <div class="deco-line"></div>
+                <div class="deco-circle"></div>
+                <div class="deco-line"></div>
+            </div>
+            
+            <h2 class="section-title scroll-reveal">Мои программы</h2>
+            <p class="section-subtitle scroll-reveal">Выберите формат работы, который откликается вам</p>
+            
+            <div class="programs-grid">
+                <!-- Матрица Судьбы -->
+                <div class="program-card scroll-reveal">
+                    <div class="program-number">01</div>
+                    <div class="program-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3 class="program-title">Метод Пифагора</h3>
+                    <p class="program-description">Полный разбор личности по дате рождения — ваш уникальный код</p>
+                    <ul class="program-features">
+                        <li>Сильные стороны и таланты</li>
+                        <li>Кармические задачи</li>
+                        <li>Финансовый код</li>
+                        <li>Совместимость с партнёром</li>
+                    </ul>
+                    <div class="program-duration">⏱️ 60 минут</div>
+                </div>
+                
+                <!-- Годовой прогноз -->
+                <div class="program-card scroll-reveal">
+                    <div class="program-number">02</div>
+                    <div class="program-icon">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <h3 class="program-title">Годовой прогноз</h3>
+                    <p class="program-description">Нумерологический календарь — карта вашего года</p>
+                    <ul class="program-features">
+                        <li>Благоприятные периоды</li>
+                        <li>Зоны внимания</li>
+                        <li>Рекомендации по месяцам</li>
+                        <li>Ключевые даты года</li>
+                    </ul>
+                    <div class="program-duration">⏱️ 60 минут</div>
+                </div>
+                
+                <!-- Детский портрет -->
+                <div class="program-card scroll-reveal">
+                    <div class="program-number">03</div>
+                    <div class="program-icon">
+                        <i class="fas fa-child"></i>
+                    </div>
+                    <h3 class="program-title">Детский портрет</h3>
+                    <p class="program-description">Анализ для родителей — как раскрыть потенциал ребёнка</p>
+                    <ul class="program-features">
+                        <li>Таланты и способности</li>
+                        <li>Стиль обучения</li>
+                        <li>Взаимодействие с родителями</li>
+                        <li>Рекомендации по развитию</li>
+                    </ul>
+                    <div class="program-duration">⏱️ 75 минут</div>
+                </div>
+                
+                <!-- Бизнес-нумерология -->
+                <div class="program-card scroll-reveal">
+                    <div class="program-number">04</div>
+                    <div class="program-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3 class="program-title">Бизнес-нумерология</h3>
+                    <p class="program-description">Для предпринимателей — цифры вашего успеха</p>
+                    <ul class="program-features">
+                        <li>Название компании</li>
+                        <li>Удачные даты запуска</li>
+                        <li>Совместимость партнёров</li>
+                        <li>Финансовые циклы</li>
+                    </ul>
+                    <div class="program-duration">⏱️ 60 минут</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="process" class="how-it-works-section">
+        <div class="container">
+            <div class="section-decoration">
+                <div class="deco-line"></div>
+                <div class="deco-circle"></div>
+                <div class="deco-line"></div>
+            </div>
+            
+            <h2 class="section-title scroll-reveal">Как мы работаем</h2>
+            <p class="section-subtitle scroll-reveal">Простой и понятный процесс от записи до результата</p>
+            
+            <div class="steps-grid">
+                <!-- Step 1 -->
+                <div class="step-card scroll-reveal">
+                    <div class="step-number">1</div>
+                    <div class="step-icon">
+                        <i class="fas fa-calendar-check"></i>
+                    </div>
+                    <h3 class="step-title">Запись</h3>
+                    <p class="step-description">Выбираете программу и связываетесь со мной через WhatsApp, Telegram или Instagram. Заполняете форму с датой рождения.</p>
+                </div>
+                
+                <!-- Step 2 -->
+                <div class="step-card scroll-reveal">
+                    <div class="step-number">2</div>
+                    <div class="step-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3 class="step-title">Анализ</h3>
+                    <p class="step-description">Я изучаю вашу матрицу, готовлю персональный отчёт и выявляю ключевые точки для работы.</p>
+                </div>
+                
+                <!-- Step 3 -->
+                <div class="step-card scroll-reveal">
+                    <div class="step-number">3</div>
+                    <div class="step-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3 class="step-title">Встреча</h3>
+                    <p class="step-description">Онлайн-сессия 60-90 минут, где мы детально разбираем все вопросы и я даю конкретные рекомендации.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Calculator Section -->
+    <section id="calculator" class="calculator-section">
+        <div class="container">
+            <div class="section-decoration">
+                <div class="deco-line"></div>
+                <div class="deco-circle"></div>
+                <div class="deco-line"></div>
+            </div>
+            
+            <h2 class="section-title scroll-reveal">Узнайте своё число жизненного пути</h2>
+            <p class="section-subtitle scroll-reveal">Бесплатный расчёт с кратким описанием — первый шаг к пониманию себя</p>
+            
+            <div class="calculator-wrapper scroll-reveal">
+                <div class="calculator-card">
+                    <div class="calculator-input-group">
+                        <label for="birthdate">Введите дату рождения:</label>
+                        <input type="date" id="birthdate" class="calculator-input" placeholder="ДД.ММ.ГГГГ">
+                        <button onclick="calculateLifePath()" class="calculator-btn">
+                            <i class="fas fa-calculator"></i>
+                            Рассчитать моё число
+                        </button>
+                    </div>
+                    
+                    <div id="calculator-result" class="calculator-result" style="display: none;">
+                        <div class="result-number-display">
+                            <span class="result-label">Ваше число жизненного пути:</span>
+                            <span id="result-number" class="result-number">1</span>
+                        </div>
+                        <div id="result-description" class="result-description"></div>
+                        <div class="result-cta">
+                            <p>Хотите узнать полный анализ вашей матрицы?</p>
+                            <button onclick="scrollToSection('contact')" class="cta-button">
+                                Записаться на консультацию
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="calculator-info">
+                    <h3>Что такое число жизненного пути?</h3>
+                    <p>Это главное число в нумерологии, рассчитанное по вашей дате рождения. Оно раскрывает вашу жизненную миссию, природные таланты и путь развития.</p>
+                    <div class="info-note">
+                        <i class="fas fa-lightbulb"></i>
+                        <span>Это лишь начало! Полная матрица содержит более 20 ключевых чисел, которые детально описывают вашу личность.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pythagoras Calculator Section -->
+    <section id="pythagoras" class="pythagoras-calculator-section">
+        <div class="container">
+            <div class="section-decoration">
+                <div class="deco-line"></div>
+                <div class="deco-circle"></div>
+                <div class="deco-line"></div>
+            </div>
+            
+            <h2 class="section-title scroll-reveal">Квадрат Пифагора</h2>
+            <p class="section-subtitle scroll-reveal">Рассчитайте свой психоматрицу по методу Пифагора и узнайте свои качества</p>
+            
+            <div class="pythagoras-wrapper scroll-reveal">
+                <div class="pythagoras-input-card">
+                    <div class="pythagoras-input-group">
+                        <label for="pythagoras-date">Введите дату рождения:</label>
+                        <input type="text" id="pythagoras-date" class="pythagoras-input" placeholder="ДД.ММ.ГГГГ" maxlength="10">
+                        <button onclick="calculatePythagorasSquare()" class="calculator-btn">
+                            <i class="fas fa-calculator"></i>
+                            Построить квадрат Пифагора
+                        </button>
+                    </div>
+                    
+                    <div id="pythagoras-calculations" class="pythagoras-calculations" style="display: none;">
+                        <h4>Рабочие числа:</h4>
+                        <div class="working-numbers">
+                            <div class="working-number">
+                                <span class="wn-label">S1:</span>
+                                <span id="s1-value" class="wn-value">-</span>
+                            </div>
+                            <div class="working-number">
+                                <span class="wn-label">S2:</span>
+                                <span id="s2-value" class="wn-value">-</span>
+                            </div>
+                            <div class="working-number">
+                                <span class="wn-label">S3:</span>
+                                <span id="s3-value" class="wn-value">-</span>
+                            </div>
+                            <div class="working-number">
+                                <span class="wn-label">S4:</span>
+                                <span id="s4-value" class="wn-value">-</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="pythagoras-result" class="pythagoras-result" style="display: none;">
+                    <h3>Ваш квадрат Пифагора</h3>
+                    <div class="pythagoras-square">
+                        <div class="square-cell">
+                            <div class="cell-number">1</div>
+                            <div class="cell-values" id="cell-1">-</div>
+                            <div class="cell-label">Характер</div>
+                        </div>
+                        <div class="square-cell">
+                            <div class="cell-number">4</div>
+                            <div class="cell-values" id="cell-4">-</div>
+                            <div class="cell-label">Здоровье</div>
+                        </div>
+                        <div class="square-cell">
+                            <div class="cell-number">7</div>
+                            <div class="cell-values" id="cell-7">-</div>
+                            <div class="cell-label">Удача</div>
+                        </div>
+                        
+                        <div class="square-cell">
+                            <div class="cell-number">2</div>
+                            <div class="cell-values" id="cell-2">-</div>
+                            <div class="cell-label">Энергия</div>
+                        </div>
+                        <div class="square-cell">
+                            <div class="cell-number">5</div>
+                            <div class="cell-values" id="cell-5">-</div>
+                            <div class="cell-label">Логика</div>
+                        </div>
+                        <div class="square-cell">
+                            <div class="cell-number">8</div>
+                            <div class="cell-values" id="cell-8">-</div>
+                            <div class="cell-label">Долг</div>
+                        </div>
+                        
+                        <div class="square-cell">
+                            <div class="cell-number">3</div>
+                            <div class="cell-values" id="cell-3">-</div>
+                            <div class="cell-label">Интерес</div>
+                        </div>
+                        <div class="square-cell">
+                            <div class="cell-number">6</div>
+                            <div class="cell-values" id="cell-6">-</div>
+                            <div class="cell-label">Труд</div>
+                        </div>
+                        <div class="square-cell">
+                            <div class="cell-number">9</div>
+                            <div class="cell-values" id="cell-9">-</div>
+                            <div class="cell-label">Память</div>
+                        </div>
+                    </div>
+                    
+                    <div class="pythagoras-cta">
+                        <p>Хотите подробную расшифровку вашего квадрата Пифагора?</p>
+                        <button onclick="scrollToSection('contact')" class="cta-button">
+                            Записаться на консультацию
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="pythagoras-info scroll-reveal">
+                <h3>Что такое квадрат Пифагора?</h3>
+                <p>Это древняя система анализа личности, основанная на дате рождения. Каждая цифра в квадрате отвечает за определённое качество характера:</p>
+                <div class="qualities-grid">
+                    <div class="quality-item">
+                        <span class="quality-number">1</span>
+                        <span class="quality-name">Характер, воля, эго</span>
+                    </div>
+                    <div class="quality-item">
+                        <span class="quality-number">2</span>
+                        <span class="quality-name">Энергия, активность</span>
+                    </div>
+                    <div class="quality-item">
+                        <span class="quality-number">3</span>
+                        <span class="quality-name">Интерес, творчество</span>
+                    </div>
+                    <div class="quality-item">
+                        <span class="quality-number">4</span>
+                        <span class="quality-name">Здоровье, красота</span>
+                    </div>
+                    <div class="quality-item">
+                        <span class="quality-number">5</span>
+                        <span class="quality-name">Логика, интуиция</span>
+                    </div>
+                    <div class="quality-item">
+                        <span class="quality-number">6</span>
+                        <span class="quality-name">Труд, мастерство</span>
+                    </div>
+                    <div class="quality-item">
+                        <span class="quality-number">7</span>
+                        <span class="quality-name">Удача, везение</span>
+                    </div>
+                    <div class="quality-item">
+                        <span class="quality-number">8</span>
+                        <span class="quality-name">Долг, ответственность</span>
+                    </div>
+                    <div class="quality-item">
+                        <span class="quality-number">9</span>
+                        <span class="quality-name">Память, ум</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-decoration">
+                <div class="deco-line"></div>
+                <div class="deco-circle"></div>
+                <div class="deco-line"></div>
+            </div>
+            
+            <h2 class="section-title scroll-reveal">Услуги</h2>
+            
+            <div class="services-grid">
+                <!-- Наставничество -->
+                <div class="service-card scroll-reveal">
+                    <div class="service-photo">
+                        <img src="https://www.genspark.ai/api/files/s/WYyp6yb7" alt="Сона Назарова - Наставничество" class="service-image">
+                    </div>
+                    <div class="service-icon">
+                        <i class="fas fa-compass"></i>
+                    </div>
+                    <h3 class="service-title">Наставничество</h3>
+                    <p class="service-description">
+                        Я помогаю раскрыть ваши сильные стороны, найти внутреннюю опору и создавать жизнь, которая действительно приносит радость. В рамках наставничества мы:
+                    </p>
+                    <ul class="service-list">
+                        <li>Определяем ваши цели и личные ресурсы.</li>
+                        <li>Строим план развития и действий, учитывая ваши уникальные способности.</li>
+                        <li>Устраняем внутренние блоки и страхи, мешающие идти к успеху.</li>
+                    </ul>
+                    <p class="service-note">
+                        Наставничество — это долгосрочная поддержка, когда вы получаете не только знания, но и уверенность, что идёте верным путем.
+                    </p>
+                </div>
+                
+                <!-- Коучинг -->
+                <div class="service-card scroll-reveal">
+                    <div class="service-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3 class="service-title">Коучинг</h3>
+                    <p class="service-description">
+                        Коучинг помогает достигать целей, изменять привычки и создавать результаты, которые вы всегда хотели. Мы:
+                    </p>
+                    <ul class="service-list">
+                        <li>Формируем конкретные шаги для реализации целей.</li>
+                        <li>Преодолеваем внутренние препятствия и сомнения.</li>
+                        <li>Развиваем личную эффективность и гармонию между работой, отношениями и собой.</li>
+                    </ul>
+                    <p class="service-note">
+                        Коучинг — это про движение к результату с поддержкой и мотивацией, чтобы вы ощущали прогресс каждый день.
+                    </p>
+                </div>
+                
+                <!-- Консультация -->
+                <div class="service-card scroll-reveal">
+                    <div class="service-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3 class="service-title">Консультация</h3>
+                    <p class="service-description">
+                        Если вы хотите быстро разобраться в конкретной ситуации, найти решение или получить точный анализ — консультация для вас.
+                    </p>
+                    <ul class="service-list">
+                        <li>Разбор текущих проблем и поиск эффективных решений.</li>
+                        <li>Индивидуальные рекомендации для вашего развития.</li>
+                        <li>Понимание своих сильных и слабых сторон через нумерологию по системе Пифагора и психологические техники.</li>
+                    </ul>
+                    <p class="service-note">
+                        Консультация — это быстрый и точный путь к ясности и уверенности в принятии решений.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-decoration">
+                <div class="deco-line"></div>
+                <div class="deco-circle"></div>
+                <div class="deco-line"></div>
+            </div>
+            
+            <h2 class="section-title scroll-reveal">Свяжитесь со мной</h2>
+            
+            <div class="contact-content scroll-reveal">
+                <p class="contact-intro">Готовы начать путь к себе?<br>Выберите удобный способ связи</p>
+                
+                <div class="contact-buttons">
+                    <a href="https://wa.me/994702782222" target="_blank" rel="noopener" class="contact-btn whatsapp-btn">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>WhatsApp</span>
+                    </a>
+                    
+                    <a href="https://t.me/sonamind" target="_blank" rel="noopener" class="contact-btn telegram-btn">
+                        <i class="fab fa-telegram-plane"></i>
+                        <span>Telegram</span>
+                    </a>
+                    
+                    <a href="https://www.instagram.com/sona_nazarova_?igsh=MWp1bWdjNGZhMmN5dw%3D%3D" target="_blank" rel="noopener" class="contact-btn instagram-btn">
+                        <i class="fab fa-instagram"></i>
+                        <span>Instagram</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-brand">Mind Vision</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
